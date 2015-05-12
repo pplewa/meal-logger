@@ -1,0 +1,27 @@
+.Account form{
+	width: 310px;
+	margin: 1em auto;	
+}
+
+.Account .pure-form-aligned .pure-control-group label  {
+	width: 5em;
+}
+
+.Account .pure-form-aligned .pure-controls {
+	margin: 0 0 0 6em;
+}
+
+.Account button {
+	margin-right: 10px;
+}
+
+.Account .loader {
+	display: none;
+	top: -11px;
+	margin: 0;
+	font-size: 2px;
+}
+
+.Account .loader.spin {
+	display: inline-block;
+}

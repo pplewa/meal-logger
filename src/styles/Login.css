@@ -1,0 +1,35 @@
+.Login {
+	width: 310px;
+	margin: 0 auto;	
+}
+
+.Login input {
+	width: 310px;
+}
+
+.Login button {
+	margin-right: 10px;
+}
+
+.Login aside {
+	background: rgb(202, 60, 60);
+	color: #fff;
+	padding: 0.3em 1em;
+	border-radius: 3px;
+	margin: 0.75em 0 0.4em;
+}
+
+.Login aside:empty {
+	display: none;
+}
+
+.Login .loader {
+	display: none;
+	top: -11px;
+	margin: 0;
+	font-size: 2px;
+}
+
+.Login .loader.spin {
+	display: inline-block;
+}

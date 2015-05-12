@@ -1,0 +1,11 @@
+.Navigation {
+	text-align: center;
+	border-bottom: 1px solid #eee;
+}
+
+.Navigation .active, .Navigation .active:hover, .Navigation .active:active {
+	/*background-color: rgb(0, 120, 231); */
+	/*color: #fff;*/
+	background-color: #cbcbcb;
+	color: #000; 
+}

@@ -1,0 +1,143 @@
+.Meals .griddle{
+	max-width: 600px;
+	min-width: 320px;
+	margin: 0 auto;
+}
+
+.MealsTable tbody tr td {
+	padding: 2px;
+}
+
+.MealsTable tbody tr td.footer-container {
+	padding: 0;
+}
+
+.MealsTable tr th {
+	padding: 0.5em 0;
+}
+
+.MealsContent .AddMeal tbody tr.edit input {
+	border-radius: 2px;
+	box-shadow: inset 0 1px 3px #ddd;
+	border-width: 1px;
+}
+
+.MealsTable .pure-table{
+	width: 100%;
+	max-width: 100%;
+}
+
+.MealsTable tbody td, .MealsTable thead th {
+	width: 20%;
+}
+
+.MealsTable tbody tr:last-child {
+	border-width: 0;
+	height: 0 !important;
+}
+
+.MealsTable thead th {
+	text-align: center;
+	text-transform: capitalize;
+	height: 20px;
+}
+
+.MealsTable tbody td {
+	padding: 0;
+}
+
+
+.MealsTable  tbody tr button.pure-button-add {
+    background: rgb(0, 120, 231);
+    width: 100%;
+    color: #fff;
+}
+
+.MealsTable .pure-button-save {
+    background: rgb(28, 184, 65);
+}
+
+.MealsTable .pure-button-delete {
+    background: rgb(202, 60, 60);
+}
+
+.MealsTable .pure-button img{
+	position: relative;
+	top: 2px;
+}
+
+.MealsTable tbody td > .cell {
+	text-align: center;
+}
+
+.MealsTable tbody tr.edit input {
+	width: 100%;
+	border-width: 0;
+  	border-radius: 0;
+  	text-align: center;
+  	box-shadow: inset 0 0px 2px #999;
+  	height: 36px;
+  	margin: 0;
+}
+
+.MealsTable tbody tr button {
+	width: 48%;
+	margin: 2px 2% 2px 0;
+	padding: 0.5em 0;
+}
+
+.MealsTable tbody tr.edit input,
+.MealsTable tbody tr.edit button[name="update"] {
+	display: inline-block !important;
+}
+
+.MealsTable tbody input,
+.MealsTable tbody button[name="update"],
+.MealsTable tbody tr.edit span,
+.MealsTable tbody tr.edit button[name="edit"] {
+	display: none !important;
+}
+
+.MealsTable .loader {
+	display: none;
+	margin: 50px auto 0;
+	font-size: 10px;
+}
+
+.MealsTable .loader.spin {
+	display: block;
+}
+
+.MealsTable .loader.spin + * {
+	display: none;
+}
+
+.exceeded {
+	color: rgb(202, 60, 60);
+}
+
+.icon-delete {
+	display: block;
+}
+
+.griddle .top-section {
+	margin: 30px 0;
+}
+
+.griddle .top-section input {
+	width: 100%;
+}
+
+.griddle-previous, .griddle-next, .griddle-page {
+	width: 33%;
+	display: inline-block;
+	text-align: center;
+}
+
+.griddle-previous {
+	text-align: right;
+}
+
+.griddle-next {
+	text-align: left;
+}

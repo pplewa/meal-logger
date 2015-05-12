@@ -1,0 +1,32 @@
+.AddMeal {
+	padding: 30px 0;
+	background-color: #f5f5f5;
+  	border-bottom: 1px solid #eee;
+}
+
+.AddMeal table{
+	margin: 0 auto;
+	width: 320px;
+}
+
+.AddMeal tbody tr td:first-child {
+	padding: 1px 0;
+	width: 75%;
+}
+
+.AddMeal tbody tr input {
+	width: 100%;
+}
+
+.AddMeal tbody tr td:first-child input {
+	border-radius: 2px 0 0 2px;
+	border-right-width: 0;
+}
+
+.AddMeal tbody tr td:last-child input {
+	border-radius: 0 2px 2px 0;
+}
+
+.AddMeal .pure-button-primary {
+	width: 100%
+}

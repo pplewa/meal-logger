@@ -9,3 +9,5 @@ Update FIREBASE_URI in src/components/MealLoggerApp.js and:
 npm install
 grunt serve
 ```
+
+new line
